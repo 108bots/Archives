@@ -1,0 +1,7 @@
+SSTF Pre-requisites
+==================
+1) Java Runtime Env - http://java.sun.com/javase/downloads/index.jsp
+2) SIPp - http://sourceforge.net/project/showfiles.php?group_id=104305 (exe Provided with SSTF)
+3) pcap (winpcap) Library  - http://www.winpcap.org/install/default.htm
+			     http://www.tcpdump.org/
+OS: Windows, Linux

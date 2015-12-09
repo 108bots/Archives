@@ -1,0 +1,40 @@
+Making the jar files for SSTF (Steps)
+=============================
+
+NOTE:  1) For Successful Running of SSTF, the current Directory structure should be maintained.
+====      SSTF project was developed using Eclipse IDE. Hence this directory can be easily imported into
+          Eclipse workspace.
+
+       2) The SSTF jar executable must be found under the working/SIPStrezz/ directory.
+       
+Step 1:   To Create jar executable
+----------------------------------
+
+a) go to working/SIPStrezz/bin/ directory
+
+b) Execute command:          jar cfm sstf-01.jar Manifest.txt strezzer/*.class
+
+c) Move the jar file to working/SIPStrezz/bin/ :     mv sstf-01.jar ../
+
+NOTE: Alternatively, if you are running on Linux, you simply run the script working/SIPStrezz/BuildSSTF.sh 
+====
+
+Step 2:  To Create jar archive of the entire working directory
+------------------------------------------------------------
+
+a) Go to the direcotry containing the SSTF working directory ( say sstf-setup/)
+
+b) Execute command:         jar -cf sstf-setup.jar sstf-setup/
+
+
+Extracting the setup jar file
+==============================
+Go to the directory containing the sstf-setup.jar and execute the command: 
+
+ jar -xvf sstf-setup.jar
+
+
+Executing the SSTF application
+===============================
+ 
+Go to working/SIPStrezz/ directory and execute command:    java -jar sstf-01.jar

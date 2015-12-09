@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!-- <!DOCTYPE testrules SYSTEM "fuzzTestRules.dtd"> -->
+
+<!--  This file defines the Rules required to prepare the fuzz messages -->
+<testrules>
+
+ <rule name="Rule1">
+  <message type="register" />
+  <testdevice type="uac" />
+  <targetdevice type="proxy" />
+<!-- header definitions -->
+  <header type="start" />
+<!-- empty header sections imply non fuzzed data-->
+  <header type="via" />
+  <header type="from">
+<!-- CDATA section contains the fuzz definition of the form-->
+<!-- [postion(number|"all")] [pattern] [fuzz_keyword|replacement text] -->
+   <![CDATA[
+     1 [local_ip] [SIP_ip]
+     1 @ [SIP_at]
+     all : [SIP_colon]
+   ]]>
+  </header>
+  <header type="to">
+   <![CDATA[
+     3 : [SIP_colon]
+     1 [local_port] [SIP_int]
+   ]]>
+  </header>
+  <header type="call-id" />
+  <header type="cseq">
+   <![CDATA[
+     1 [value] REGISTER
+   ]]>
+  </header>
+  <header type="contact" />
+  <header type="content-length">
+   <![CDATA[
+     1 [value] 0
+   ]]>
+  </header>
+  
+<!-- This section specifies how the headers must be arranged within the message -->  
+<!-- Also allows for headers repetition -->
+  <build>start,via,from,to,call-id,cseq,contact,content-length</build>
+ </rule>
+
+</testrules>
+

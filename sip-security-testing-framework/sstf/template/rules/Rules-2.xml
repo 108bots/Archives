@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!-- <!DOCTYPE testrules SYSTEM "fuzzTestRules.dtd"> -->
+
+<!--  This file defines the Rules required to prepare the fuzz messages -->
+<testrules>
+
+ <rule name="Rule2">
+  <message type="invite" />
+  <testdevice type="uac" />
+  <targetdevice type="uac" />
+  <header type="start" />
+  <header type="via" />
+  <header type="from">
+   <![CDATA[
+     1 > [SIP_rAngBrckt]
+   ]]>
+  </header>
+  <header type="to" />
+  <header type="call-id" />
+  <header type="cseq" />
+  <header type="contact" />
+  <header type="content-length">
+   <![CDATA[
+     1 [value] [SIP_int]
+   ]]>
+  </header>
+<!-- line break -->
+  <header type="lb" />
+  <header type="sdp">
+   <![CDATA[
+     5 = [SIP_equal]
+     1 audio [SIP_string]
+   ]]>
+  </header>
+<!-- This section specifies how the headers must be arranged within the message -->  
+<!-- headers can also be repeated -->
+  <build>start,via,from,to,call-id,cseq,contact,content-length,lb,sdp</build>
+ </rule>
+
+</testrules>
+

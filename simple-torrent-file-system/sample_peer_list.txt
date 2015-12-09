@@ -1,0 +1,44 @@
+Peer list for node[0] contains:
+Peer[0] = -1, Peer[1] = 4, Peer[2] = 6, Peer[3] = -1, Peer[4] = -1, Peer[5] = -1, Peer[6] = -1, Peer[7] = -1, Peer[8] = -1, Peer[9] = -1, Peer[10] = -1, Peer[11] = -1, Peer[12] = -1, Peer[13] = -1, Peer[14] = -1,
+
+Peer list for node[1] contains:
+Peer[0] = 5, Peer[1] = -1, Peer[2] = -1, Peer[3] = 6, Peer[4] = 7, Peer[5] = -1, Peer[6] = 8, Peer[7] = -1, Peer[8] = -1, Peer[9] = -1, Peer[10] = -1, Peer[11] = 9, Peer[12] = -1, Peer[13] = -1, Peer[14] = -1,
+
+Peer list for node[2] contains:
+Peer[0] = 5, Peer[1] = -1, Peer[2] = -1, Peer[3] = -1, Peer[4] = -1, Peer[5] = 6, Peer[6] = -1, Peer[7] = 7, Peer[8] = -1, Peer[9] = -1, Peer[10] = -1, Peer[11] = -1, Peer[12] = -1, Peer[13] = -1, Peer[14] = -1,
+
+Peer list for node[3] contains:
+Peer[0] = -1, Peer[1] = 5, Peer[2] = -1, Peer[3] = -1, Peer[4] = -1, Peer[5] = -1, Peer[6] = -1, Peer[7] = -1, Peer[8] = -1, Peer[9] = -1, Peer[10] = -1, Peer[11] = -1, Peer[12] = -1, Peer[13] = -1, Peer[14] = -1,
+
+Peer list for node[4] contains:
+Peer[0] = -1, Peer[1] = 5, Peer[2] = -1, Peer[3] = -1, Peer[4] = -1, Peer[5] = -1, Peer[6] = -1, Peer[7] = -1, Peer[8] = -1, Peer[9] = -1, Peer[10] = -1, Peer[11] = -1, Peer[12] = -1, Peer[13] = -1, Peer[14] = -1,
+
+Peer list for node[5] contains:
+Peer[0] = -1, Peer[1] = -1, Peer[2] = 5, Peer[3] = -1, Peer[4] = -1, Peer[5] = -1, Peer[6] = -1, Peer[7] = -1, Peer[8] = 6, Peer[9] = -1, Peer[10] = -1, Peer[11] = -1, Peer[12] = -1, Peer[13] = 7, Peer[14] = -1,
+
+Peer list for node[6] contains:
+Peer[0] = -1, Peer[1] = 5, Peer[2] = -1, Peer[3] = -1, Peer[4] = -1, Peer[5] = -1, Peer[6] = -1, Peer[7] = -1, Peer[8] = -1, Peer[9] = -1, Peer[10] = -1, Peer[11] = -1, Peer[12] = -1, Peer[13] = -1, Peer[14] = -1,
+
+Peer list for node[7] contains:
+Peer[0] = -1, Peer[1] = -1, Peer[2] = 5, Peer[3] = -1, Peer[4] = -1, Peer[5] = -1, Peer[6] = -1, Peer[7] = -1, Peer[8] = -1, Peer[9] = 6, Peer[10] = 7, Peer[11] = -1, Peer[12] = -1, Peer[13] = -1, Peer[14] = 8,
+
+Peer list for node[8] contains:
+Peer[0] = -1, Peer[1] = -1, Peer[2] = -1, Peer[3] = -1, Peer[4] = -1, Peer[5] = 5, Peer[6] = -1, Peer[7] = -1, Peer[8] = -1, Peer[9] = -1, Peer[10] = -1, Peer[11] = -1, Peer[12] = -1, Peer[13] = -1, Peer[14] = -1,
+
+Peer list for node[9] contains:
+Peer[0] = -1, Peer[1] = -1, Peer[2] = -1, Peer[3] = -1, Peer[4] = -1, Peer[5] = -1, Peer[6] = -1, Peer[7] = 5, Peer[8] = -1, Peer[9] = -1, Peer[10] = -1, Peer[11] = -1, Peer[12] = 6, Peer[13] = -1, Peer[14] = -1,
+
+Peer list for node[10] contains:
+Peer[0] = -1, Peer[1] = -1, Peer[2] = -1, Peer[3] = -1, Peer[4] = -1, Peer[5] = -1, Peer[6] = -1, Peer[7] = 5, Peer[8] = -1, Peer[9] = -1, Peer[10] = -1, Peer[11] = -1, Peer[12] = -1, Peer[13] = -1, Peer[14] = -1,
+
+Peer list for node[11] contains:
+Peer[0] = -1, Peer[1] = 5, Peer[2] = -1, Peer[3] = -1, Peer[4] = -1, Peer[5] = -1, Peer[6] = -1, Peer[7] = -1, Peer[8] = -1, Peer[9] = -1, Peer[10] = -1, Peer[11] = -1, Peer[12] = -1, Peer[13] = -1, Peer[14] = -1,
+
+Peer list for node[12] contains:
+Peer[0] = -1, Peer[1] = -1, Peer[2] = -1, Peer[3] = -1, Peer[4] = -1, Peer[5] = -1, Peer[6] = -1, Peer[7] = -1, Peer[8] = -1, Peer[9] = 5, Peer[10] = -1, Peer[11] = -1, Peer[12] = -1, Peer[13] = -1, Peer[14] = -1,
+
+Peer list for node[13] contains:
+Peer[0] = -1, Peer[1] = -1, Peer[2] = -1, Peer[3] = -1, Peer[4] = -1, Peer[5] = 5, Peer[6] = -1, Peer[7] = -1, Peer[8] = -1, Peer[9] = -1, Peer[10] = -1, Peer[11] = -1, Peer[12] = -1, Peer[13] = -1, Peer[14] = -1,
+
+Peer list for node[14] contains:
+Peer[0] = -1, Peer[1] = -1, Peer[2] = -1, Peer[3] = -1, Peer[4] = -1, Peer[5] = -1, Peer[6] = -1, Peer[7] = 5, Peer[8] = -1, Peer[9] = -1, Peer[10] = -1, Peer[11] = -1, Peer[12] = -1, Peer[13] = -1, Peer[14] = -1,

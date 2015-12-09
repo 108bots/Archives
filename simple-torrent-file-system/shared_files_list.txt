@@ -1,0 +1,56 @@
+node 0:
+bryan_adams-star,heaven,please forgive me,cloud9,everything,
+
+node 1:
+coldplay-yellow,clocks,warning sign,rush of blood,scientist,
+tamu-aggies,texas,
+
+node 2:
+bon_jovi-always,prayer,life,bed of roses,
+
+node 3:
+bob_dylan-i want you,sara,rolling stone,tambourine man,simple twist,hurricane,
+
+node 4:
+green_day-boulevard,broken dreams,september,american idiot,
+
+node 5:
+pink_floyd-time,hey you,comfortably numb,wall,learning to fly,
+utd-dallas,texas,
+
+node 6:
+beatles-imagine,real love,blackbird,let it be,
+
+node 7:
+gnr-november rain,paradise city,sweet child,
+utd-dallas,texas,
+
+node 8:
+dido-white flag,rent,hunter,no angel,here with me,
+
+node 9:
+blue_october-ocean,hate me,
+
+node 10:
+best_hits-sweet child,white flag,boulevard,hey you,
+dallas-jfk,texas,
+
+node 11:
+linkin_park-my december,crawling,in the end,authority,
+
+node 12:
+u2-lemon,beautiful day,elevation,one,stuck in a moment,
+
+node 13:
+assorted-white flag,on a high,crazy,californication,
+best_hits-sweet child,white flag,boulevard,hey you,
+rhcp-californication,otherside,scar tissue,by the way,
+austin-texas,city,
+
+node 14:
+billboard-in the end,someday,iris,say something,feel,
+goo_goo_dolls-iris,name,broadway,
+robbie_williams-feel,better man,angels,millenium,
+utd-richardson,
+
+

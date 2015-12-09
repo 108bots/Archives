@@ -1,0 +1,82 @@
+Welcome to the Secure File System Program Help file
+===================================================
+
+The  file describes the commands supported in the file system and their usage, along
+with limitations if any.
+
+CLEAR: Usage: Clear <return>
+       Can be executed only by the root. This command clears(formats) the entire file
+       system. It should be used with extreme care.
+
+OPEN: Usage: Open [filename] [mode] [key] <return>
+      This command opens an existing file, if file doesn't exist it creates a new one.
+      In both cases it returns a file descriptor to be used with other commands.
+      It uses a default persmission of "111100"(which rwx for owner and r-- for others)
+      [filename] max: length of filename is 11 chars
+      [mode] usable modes are "r" - read, "w" - write, "a" - append, "rw" - read & write
+      [key] 4 char ascii key to encrypt the file
+      -1 is returned if command fails
+      NOTE: OPEN should be called before any of READ, WRITE, CLOSE or LSEEK.
+
+READ: Usage: Read [fd] [nbytes] <return>
+      This command read [nbytes] number of characters from a file [fd]
+      On success returns the number of bytes read else returns -1
+
+WRITE: Usage: Write [fd] [nbytes] [bytes] <return>
+       This commands writes [nbytes] number of characters stored in [bytes] to file [fd]
+       On success returns the number of bytes written else returns -1
+       NOTE: The last character of the data to be written(bytes) should be '#'.
+
+LSEEK: Usage: Lseek [fd] [offset] [whence]
+       This commands is used to move/seek within a file [fd]
+       [offset] denotes the number of characters from [whence], which can be SEEK_SET(start-0),
+       SEEK_CUR(current-1) or SEEK_END(end-2) of file.       
+       On success returns the returns the offset of current file pointer else returns -1  
+
+CLOSE: Usage: Close [fd] <return>
+       Closes the file [fd]. A file has to be closed before opening again.
+       Returns 0 on success, -1 otherwise
+
+CAT: Usage: Cat [filename] [key] <return>
+     Displays the file [filename] on the screen. Displays error message if command fails.
+     NOTE: Newly OPENed files have to CLOSED before viewing them using CAT command.
+
+TRUNC: Usage: Trunc [filename] <return>
+       Truncates/Delete the file [filename]
+       Returns 0 on success, -1 otherwise
+
+MKDIR: Usage: Mkdir [dirname] <return>
+       Creates a directory [dirname] in the current directory. Permissions are set to
+       default "111001"
+       Returns 0 on success, -1 otherwise
+
+CD: Usage: Cd [dirpath] <return>
+    changes to current directory to the directory specified in [dirpath] 
+    [dirpath] value of ".." moves to the parent directory
+    Returns 0 on success, -1 otherwise
+
+PWD: Usage: Pwd <return>
+     Prints the current working directory
+
+LS: Usage: Ls <return>
+    Lists the current files in the directory.
+    Returns 0 on success, -1 otherwise
+
+CHMOD: Usage: Chmod [filename] [perms] <return>
+      Changes the permissions of the file [filename] to [perms].
+      Must be the owner of the file or root to execute this command
+
+FSYS: Usage: Fsys <return>
+      Prints the current statistical information for the file system
+
+FILEDESC: Usage: Filedesc <return>
+          prints the current file descriptor and all open file descriptors
+          for the given user session.
+
+LOGOUT: Usage: Logout <return>
+        Logs out the user and ends current session.
+
+HELP: Usage: Help <return>
+      Prints this menu.
+
+------------------------ x -----------x------------x-----------x--------------------------

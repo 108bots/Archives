@@ -1,0 +1,69 @@
+
+Sent search request for item 'abc' at time: Thu Apr 26 17:39:12 2007
+
+
+Sent search request for item 'udp' at time: Fri Apr 27 10:35:37 2007
+
+
+Received a response
+Details:
+Search Result: rfc0791-udp/5$
+Hop Count Used: 1
+Time of Receipt: Fri Apr 27 10:35:37 2007
+
+
+Received a response
+Details:
+Search Result: rfc0791-udp/5$
+Hop Count Used: 2
+Time of Receipt: Fri Apr 27 10:35:39 2007
+
+
+Received a response
+Details:
+Search Result: rfc0791-udp/14$
+Hop Count Used: 2
+Time of Receipt: Fri Apr 27 10:35:39 2007
+
+
+Received a response
+Details:
+Search Result: rfc0791-udp/6$
+Hop Count Used: 2
+Time of Receipt: Fri Apr 27 10:35:40 2007
+
+
+Received a response
+Details:
+Search Result: rfc0791-udp/5$
+Hop Count Used: 3
+Time of Receipt: Fri Apr 27 10:35:43 2007
+
+
+Received a response
+Details:
+Search Result: rfc0791-udp/6$
+Hop Count Used: 3
+Time of Receipt: Fri Apr 27 10:35:44 2007
+
+
+Received a response
+Details:
+Search Result: rfc0791-udp/14$
+Hop Count Used: 3
+Time of Receipt: Fri Apr 27 10:35:44 2007
+
+
+Received a response
+Details:
+Search Result: rfc0791-udp/12$
+Hop Count Used: 3
+Time of Receipt: Fri Apr 27 10:35:44 2007
+
+
+Received a response
+Details:
+Search Result: rfc0791-udp/10$
+Hop Count Used: 3
+Time of Receipt: Fri Apr 27 10:35:44 2007
+

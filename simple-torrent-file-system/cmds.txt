@@ -1,0 +1,16 @@
+p2pfs 0 cur_nodes.info shared_files_0.info
+p2pfs 1 cur_nodes.info shared_files_1.info
+p2pfs 2 cur_nodes.info shared_files_2.info
+p2pfs 3 cur_nodes.info shared_files_3.info
+p2pfs 4 cur_nodes.info shared_files_4.info
+p2pfs 5 cur_nodes.info shared_files_5.info
+p2pfs 6 cur_nodes.info shared_files_6.info
+p2pfs 7 cur_nodes.info shared_files_7.info
+p2pfs 8 cur_nodes.info shared_files_8.info
+p2pfs 9 cur_nodes.info shared_files_9.info
+p2pfs 10 cur_nodes.info shared_files_10.info
+p2pfs 11 cur_nodes.info shared_files_11.info
+p2pfs 12 cur_nodes.info shared_files_12.info
+p2pfs 13 cur_nodes.info shared_files_13.info
+p2pfs 14 cur_nodes.info shared_files_14.info
+
