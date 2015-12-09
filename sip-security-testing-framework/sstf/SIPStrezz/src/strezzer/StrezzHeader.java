@@ -1,4 +1,6 @@
 /*SIP SECURITY TESTING FRAMEWORK - SSTF version 0.1
+ * Author: Hemanth Srinivasan
+ * Year: 2008
  */
 package strezzer;
 

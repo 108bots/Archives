@@ -1,7 +1,7 @@
 /*SIP SECURITY TESTING FRAMEWORK - SSTF version 0.1
- */
-/* SSTF WIZARD - The GUI COMPONENT 
- * 
+ * SSTF WIZARD - The GUI COMPONENT 
+ * Author: Hemanth Srinivasan
+ * Year: 2008 
  */
 package strezzer;
 

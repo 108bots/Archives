@@ -1,12 +1,12 @@
 /*SIP SECURITY TESTING FRAMEWORK - SSTF version 0.1
- */
-/*Uses a genetic algorithm to generate fuzz data
+ *Uses a genetic algorithm to generate fuzz data
  * Input: Parent Population types eg: <parent1 parent2> "SIP_uri SIP_uri" "SIP_int SIP_string" etc
  *        Count: Number of offsprings (length of the offspring fz file)
  * Output: Offspring[xx].fz file
  * Pre-requisite: population files (.fz files in /fuzz directory) and corresponding 
  * fitness files (.fit files in /fuzz/fitness directory) should exist
- *                
+ * Author: Hemanth Srinivasan
+ * Year: 2008
  */
 package strezzer; 
 

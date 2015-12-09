@@ -1,12 +1,13 @@
 /*SIP SECURITY TESTING FRAMEWORK - SSTF version 0.1
- */
-/* Generates XML scenario and CSV files to be used with SIPp to launch strezz tests
+ * Generates XML scenario and CSV files to be used with SIPp to launch strezz tests
  * Input: SIP Message Type eg: INVITE
  * Output: XML scenario and CSV files
  * Pre-requisites: The directory structure should be correct, ../extract, ../fuzz, ../template, ../testcases 
  *    XX.fz.tpl files must indicate the fuzzed fields, YY.fz file contain the fuzzed values
  *    XX denotes message type, while YY denotes the fuzz field type indicated in .tpl file
  *    eg: SIP_ip, SIP_uri etc
+ * Author: Hemanth Srinivasan
+ * Year: 2008
  */
 
 package strezzer;

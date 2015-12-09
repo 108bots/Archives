@@ -1,10 +1,11 @@
 /*SIP SECURITY TESTING FRAMEWORK - SSTF version 0.1
- */
-/*Uses the DOM to parse the fuzz Rules XML file and build the Rules objects.
+ *Uses the DOM to parse the fuzz Rules XML file and build the Rules objects.
  * Then depending on 1) rulename, 2) msg type, 3) testdevice type or 4) targetdevice type
  * processes the rules and generates the corresponding template (*.tpl) file
  * This .tpl file is a test case. It can be used with Strezz.java to generate the 
  * actual test XML scenario and CSV files, that will be used by SIPp.
+ * Author: Hemanth Srinivasan
+ * Year: 2008
  */
 
 //Pending: Modify to take rulename, msgname, typename parameters

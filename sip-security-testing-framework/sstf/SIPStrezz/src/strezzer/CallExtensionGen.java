@@ -1,8 +1,9 @@
 /*SIP SECURITY TESTING FRAMEWORK - SSTF version 0.1
- */
-/* SSTF WIZARD - User Range Generator  
+ * SSTF WIZARD - User Range Generator  
  * INPUT : [userRange] [src|dst] ex: 123xx src
  * OUTPUT: 12300 - 12399 written to the corresponding csv file
+ * Author: Hemanth Srinivasan
+ * Year: 2008
  */
 package strezzer;
 

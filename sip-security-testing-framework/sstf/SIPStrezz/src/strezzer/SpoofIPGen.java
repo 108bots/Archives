@@ -1,11 +1,11 @@
 /*SIP SECURITY TESTING FRAMEWORK - SSTF version 0.1
- */
-/* SSTF WIZARD - IP address Range Generator
+ * SSTF WIZARD - IP address Range Generator
  * INPUT : [IP net] [mask] [count|all] [src|dst]
  *        ex: 10.10.10.0 24 all src
  *            11.11.0.0 16 500 dst
  * OUTPUT: All IP address in the range, written to the corresponding csv file 
- * 
+ * Author: Hemanth Srinivasan
+ * Year: 2008 
  */
 package strezzer;
 
