@@ -29,7 +29,7 @@ Your Assignment
 Your task is to implement the P2P system described above.
 1. Your implementation should make sure that state information about a search is not maintained at the participating nodes for an unduly long period of time.
 2. When a computer wishes to join the P2P system it should randomly select one of the computers that is already part of the P2P system as its neighbor and issue a join request.
-3. Your P2P system should start with one node, and slowly grow to fifteen nodes. You must choose from the fifty machines set aside for network programming (net01.utdallas.edu - net50.utdallas.edu).
+3. Your P2P system should start with one node, and slowly grow to fifteen nodes. You must choose from the fifty machines set aside for network programming (net01 - net50).
 4. Having grown to fifteen nodes, you should initiate departure of nodes, one at a time. If a departing node has only one neighbor then all that node has to do before departing is to terminate its TCP session with its neighbor and all ongoing TCP file transfer sessions. If a departing node has two or more neighbors then before departing it should arbitrarily select one of its neighbors, n1, and make it a neighbor of all other neighbors (provided the two nodes are not already neighbors of each other). Then, it should terminate its TCP sessions with all its neighbors as well the ongoing TCP file transfer sessions.
 5. As part of node departures you are supposed to handle situations where two or more nodes that are neighbors of each other concurrently decide to depart.
 

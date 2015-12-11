@@ -130,11 +130,9 @@ class IntroductionFrame extends JFrame {
 	        	    	                      "\n"+
 	        	    	                      " "+
 	        	    	                      "\n"+
-	        	    	                      "Hemanth B Srinivasan" +
+	        	    	                      "Hemanth Srinivasan" +
 	        	    	                      "\n"+
-	        	    	                      "ANDES Lab, Dept of CS, UTD" +
-	        	    	                      "\n"+
-	        	    	                      "http://www.utdallas.edu/~hemanth.balaji/";
+	        	    	                      "Year 2008";
 	        	    	   
 	        	    	   JOptionPane.showConfirmDialog(null, aboutText, "About SSTF", JOptionPane.PLAIN_MESSAGE);
 	        	       }
