@@ -18,7 +18,7 @@ An encrypted Unix style file system with implementation of several commands such
 
 A peer-to-peer (P2P) system consisting of a set of nodes that act as a distributed repository of files allowing participating nodes to search for and download files from each other.
 
-## Implementation of a Wireless Ad-Hoc Protocols
+## Simulation of wireless Ad-Hoc protocols
 
 Simulation of two wireless ad-hoc protocols on a wired network to understand the behavior of wireless broadcast and compare the power consumption of the two protocols. The implementation is based on the following papers:
   - http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1209241
